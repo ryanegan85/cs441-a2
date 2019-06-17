@@ -1,4 +1,4 @@
-package edu.binghamton.cs.cs441a2;
+package edu.binghamton.cs.cs441_a2_2;
 
 import android.graphics.Point;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.Display;
 
 public class MainActivity extends AppCompatActivity {
 
-    PongView pongView;
+    GameView gameView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,21 +18,18 @@ public class MainActivity extends AppCompatActivity {
         Point size = new Point();
         display.getSize(size);
 
-        pongView = new PongView(this, size.x, size.y);
-        setContentView(pongView);
+        gameView = new GameView(this, size.x, size.y);
+        setContentView(gameView);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
-        pongView.resume();
+        gameView.resume();
     }
-
     @Override
     protected void onPause() {
         super.onPause();
-
-        pongView.pause();
+        gameView.pause();
     }
 }

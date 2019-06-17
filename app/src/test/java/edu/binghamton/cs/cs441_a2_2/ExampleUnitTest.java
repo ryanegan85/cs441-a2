@@ -1,4 +1,4 @@
-package edu.binghamton.cs.cs441a2;
+package edu.binghamton.cs.cs441_a2_2;
 
 import org.junit.Test;
 

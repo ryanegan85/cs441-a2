@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.binghamton.cs.cs441a2">
+    package="edu.binghamton.cs.cs441_a2_2">
 
     <application
         android:allowBackup="true"

@@ -1,4 +1,4 @@
-package edu.binghamton.cs.cs441a2;
+package edu.binghamton.cs.cs441_a2_2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("edu.binghamton.cs.cs441a2", appContext.getPackageName());
+        assertEquals("edu.binghamton.cs.cs441_a2_2", appContext.getPackageName());
     }
 }
